@@ -5,4 +5,4 @@ flutter pub run bin/project_structure_generator -dirs common,data,domain,present
 `
 
 
-![Alt Text](https://github.com/xaldarof/project-structure-generator/tree/main/screenshots/img.png)
+![Alt Text](./screenshots/img.png)
