@@ -36,7 +36,7 @@ genFeatures(List<String> features, List<String> dirs, String path) {
       final featureObject = extractFeatureFileNames(feature);
       for (var featureFile in featureObject?.files ?? []) {
         var file = File(
-            "${Directory.current.path}$_separator$path$_separator$element$_separator${featureObject?.name}$_separator$featureFile$_separator$element.dart");
+            "${Directory.current.path}$_separator$path$_separator$element$_separator${featureObject?.name}$_separator$featureFile$_separator${featureObject?.name}.dart");
         file.createSync(recursive: true);
       }
     }

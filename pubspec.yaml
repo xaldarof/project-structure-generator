@@ -1,6 +1,7 @@
 name: project_structure_generator
 description: Project structure generator
-version: 1.0.0
+version: 1.0.1
+homepage: 'https://github.com/xaldarof/project-structure-generator'
 # repository: https://github.com/my_org/my_repo
 
 environment:
