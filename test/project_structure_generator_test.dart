@@ -1,8 +1,8 @@
-import 'package:project_structure_generator/project_structure_generator.dart';
 import 'package:test/test.dart';
 
+import '../bin/project_structure_generator.dart';
+
 void main() {
-  test('calculate', () {
-    //
+  test('test feature arg names extractor', () {
   });
 }
