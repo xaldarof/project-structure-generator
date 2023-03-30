@@ -1,0 +1,16 @@
+{
+  "name": "project_lib",
+  "type": "directory",
+  "children": [
+    {
+      "name": "core",
+      "type": "directory",
+      "children": [
+        {
+          "name": "file1.txt",
+          "type": "file"
+        }
+      ]
+    }
+  ]
+}
