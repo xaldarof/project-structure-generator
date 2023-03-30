@@ -3,7 +3,7 @@ If you want to convert folders to .json file, for example
 
 
 `
-flutter pub run bin/project_structure_generator:from_folders -root lib/ -output lib/output.json
+flutter pub run project_structure_generator:from_folders -root lib/ -output lib/output.json
 `
 
 `-root` - root dir
@@ -22,7 +22,7 @@ flutter pub run bin/project_structure_generator:from_folders -root lib/ -output 
 If you want to convert json to folders, for example
 
 `
-flutter pub run bin/project_structure_generator:to_folders -json lib/structure.json -output lib/
+flutter pub run project_structure_generator:to_folders -json lib/structure.json -output lib/
 `
 
 `-output` - output dir
