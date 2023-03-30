@@ -1,0 +1,118 @@
+{
+  "name": "project_lib",
+  "type": "directory",
+  "children": [
+    {
+      "name": "core",
+      "type": "directory",
+      "children": [
+        {
+          "name": "file1.txt",
+          "type": "file"
+        },
+        {
+          "name": "file2.txt",
+          "type": "file"
+        }
+      ]
+    },
+    {
+      "name": "data",
+      "type": "directory",
+      "children": [
+        {
+          "name": "repositories",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "data_sources",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "usecases",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "domain",
+      "type": "directory",
+      "children": [
+        {
+          "name": "repositories",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "data_sources",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "usecases",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "presentation",
+      "type": "directory",
+      "children": [
+        {
+          "name": "screens",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        },
+        {
+          "name": "viewModels",
+          "type": "directory",
+          "children": [
+            {
+              "name": "file3.txt",
+              "type": "file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
