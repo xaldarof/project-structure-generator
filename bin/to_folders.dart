@@ -1,15 +1,18 @@
 import 'dart:io';
 import 'dart:convert';
 
+import 'package:project_structure_generator/args_parser.dart';
+
 void main(List<String> args) {
-  String jsonString = File("${Directory.current.path}/folder_structure.json")
-      .readAsStringSync();
+  final input = ArgsParser().parse(args);
+  final output = input['output'];
+  final inputJson = input['json'];
+  String jsonString =
+      File("${Directory.current.path}/$inputJson").readAsStringSync();
   Map<String, dynamic> folderJson = json.decode(jsonString);
 
-  Directory rootDirectory = Directory(folderJson['name']);
-  rootDirectory.createSync();
-
-  createFolderStructure(folderJson, rootDirectory);
+  createFolderStructure(
+      folderJson, Directory("${Directory.current.path}/$output"));
 }
 
 void createFolderStructure(
