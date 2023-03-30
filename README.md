@@ -30,4 +30,8 @@ flutter pub run project_structure_generator:to_folders -json lib/structure.json 
 
 `-json` - input json dir
 
+
+
+See `folder_structure.json` in root path of project for example
+
 ![Alt Text](./screenshots/img.png)
