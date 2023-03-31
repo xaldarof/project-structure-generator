@@ -51,68 +51,6 @@
           ]
         }
       ]
-    },
-    {
-      "name": "domain",
-      "type": "directory",
-      "children": [
-        {
-          "name": "repositories",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        },
-        {
-          "name": "data_sources",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        },
-        {
-          "name": "usecases",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "presentation",
-      "type": "directory",
-      "children": [
-        {
-          "name": "screens",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        },
-        {
-          "name": "viewModels",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        }
-      ]
     }
   ]
 }
