@@ -1,23 +1,12 @@
 If you want to convert folders to .json file, for example
 
-
-
 `
 flutter pub run project_structure_generator:from_folders -root lib/ -output lib/output.json
 `
 
 `-root` - root dir
 
-
 `-output` - output dir for .json file
-
-
-
-
-
-
-
-
 
 If you want to convert json to folders, for example
 
@@ -27,14 +16,11 @@ flutter pub run project_structure_generator:to_folders -json lib/structure.json 
 
 `-output` - output dir
 
-
 `-json` - input json dir
-
-
 
 See `folder_structure.json` in root path of project for example
 
-
+Here is example json:
 
 ```
 {
@@ -59,4 +45,6 @@ See `folder_structure.json` in root path of project for example
 }
 ```
 
+
+Will be generated
 ![Alt Text](./screenshots/img.png)
