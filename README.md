@@ -57,6 +57,6 @@ See `folder_structure.json` in root path of project for example
     }
   ]
 }
-```json
+```
 
 ![Alt Text](./screenshots/img.png)
