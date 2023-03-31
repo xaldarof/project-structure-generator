@@ -7,48 +7,12 @@
       "type": "directory",
       "children": [
         {
-          "name": "file1.txt",
+          "name": "file.txt",
           "type": "file"
         },
         {
           "name": "file2.txt",
           "type": "file"
-        }
-      ]
-    },
-    {
-      "name": "data",
-      "type": "directory",
-      "children": [
-        {
-          "name": "repositories",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        },
-        {
-          "name": "data_sources",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
-        },
-        {
-          "name": "usecases",
-          "type": "directory",
-          "children": [
-            {
-              "name": "file3.txt",
-              "type": "file"
-            }
-          ]
         }
       ]
     }
