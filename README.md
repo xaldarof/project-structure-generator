@@ -20,6 +20,10 @@ flutter pub run project_structure_generator:to_folders -json lib/structure.json 
 
 See `folder_structure.json` in root path of project for example
 
+
+
+
+
 Here is example json:
 
 ```
@@ -47,4 +51,9 @@ Here is example json:
 
 
 Will be generated
+
+
+
+
+
 ![Alt Text](./screenshots/img.png)
