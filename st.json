@@ -1,0 +1,42 @@
+{
+  "name": "",
+  "type": "directory",
+  "children": [
+    {
+      "name": "args_parser.dart",
+      "type": "file"
+    },
+    {
+      "name": "output.json",
+      "type": "file"
+    },
+    {
+      "name": "project_lib",
+      "type": "directory",
+      "children": {
+        "name": "project_lib",
+        "type": "directory",
+        "children": [
+          {
+            "name": "core",
+            "type": "directory",
+            "children": {
+              "name": "project_lib\\core",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "file.txt",
+                  "type": "file"
+                },
+                {
+                  "name": "file2.txt",
+                  "type": "file"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

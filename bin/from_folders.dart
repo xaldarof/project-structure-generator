@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'dart:convert';
-
+import 'package:path/path.dart' as p;
 import 'package:project_structure_generator/args_parser.dart';
 
 void main(List<String> args) {
@@ -13,10 +13,11 @@ class FromFolders {
     final output = input['output'];
     final root = input['root'];
 
-    Map<String, dynamic> folderJson =
-        directoryToJson(Directory("${Directory.current.path}/$root"));
+    Map<String, dynamic> folderJson = directoryToJson(
+        Directory("${Directory.current.path}${Platform.pathSeparator}$root"));
     String jsonString = json.encode(folderJson);
-    final file = File("${Directory.current.path}/$output");
+    final file =
+        File("${Directory.current.path}${Platform.pathSeparator}$output");
     file.createSync();
     file.writeAsStringSync(jsonString);
   }
@@ -26,10 +27,10 @@ class FromFolders {
 
     directory.listSync().forEach((FileSystemEntity entity) {
       if (entity is File) {
-        filesJson.add({"name": entity.path.split('/').last, "type": "file"});
+        filesJson.add({"name": p.basename(entity.path), "type": "file"});
       } else if (entity is Directory) {
         filesJson.add({
-          "name": entity.path.split('/').last,
+          "name": p.basename(entity.path),
           "type": "directory",
           "children": directoryToJson(entity)
         });
