@@ -1,0 +1,2627 @@
+{
+  "name": "",
+  "type": "directory",
+  "children": [
+    {
+      "name": "ui",
+      "type": "directory",
+      "children": {
+        "name": "ui",
+        "type": "directory",
+        "children": [
+          {
+            "name": "execution_document",
+            "type": "directory",
+            "children": {
+              "name": "execution_document",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "execution_document_list.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "execution_document_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view",
+                  "type": "directory",
+                  "children": {
+                    "name": "view",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "view_execution_document_main_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_execution_document_info_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_execution_document_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "widgets",
+                        "type": "directory",
+                        "children": {
+                          "name": "widgets",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "execution_info_page_inherited.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "execution_bottom_navigation.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "execution_status_block.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "execution_pinned_files.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "execution_registration_cart.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "bloc",
+                        "type": "directory",
+                        "children": {
+                          "name": "bloc",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "view_execution_document_event.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_execution_document_state.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_execution_document_bloc.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "execution_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "execution_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "execution_state.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "home",
+            "type": "directory",
+            "children": {
+              "name": "home",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "drawer_content.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "home_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "home_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "home_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "home_event.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "pin",
+            "type": "directory",
+            "children": {
+              "name": "pin",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "cubit",
+                  "type": "directory",
+                  "children": {
+                    "name": "cubit",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "bio_cubit.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "bio_state.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "setup_pin_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "pin_code_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "enable_bio_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "setup_pin_bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "setup_pin_bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "setup_pin_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "setup_pin_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "setup_pin_state.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "pin_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "pin_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "pin_bloc.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "germes.dart",
+            "type": "file"
+          },
+          {
+            "name": "auth",
+            "type": "directory",
+            "children": {
+              "name": "auth",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "rooted_device_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "app_status.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "login",
+                  "type": "directory",
+                  "children": {
+                    "name": "login",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "login_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "bloc",
+                        "type": "directory",
+                        "children": {
+                          "name": "bloc",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "login_bloc.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "login_event.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "login_state.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "consideration_document",
+            "type": "directory",
+            "children": {
+              "name": "consideration_document",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "consideration_document_list.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "consideration_document_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view",
+                  "type": "directory",
+                  "children": {
+                    "name": "view",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "view_consideration_document_info_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_consideration_document_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_consideration_document_main_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "widgets",
+                        "type": "directory",
+                        "children": {
+                          "name": "widgets",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "consideration_pinned_files.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_bottom_navigation.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_registration_cart.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "bloc",
+                        "type": "directory",
+                        "children": {
+                          "name": "bloc",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "view_consideration_document_bloc.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_consideration_document_event.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_consideration_document_state.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "consideration_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "consideration_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "consideration_state.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "complaint_document",
+            "type": "directory",
+            "children": {
+              "name": "complaint_document",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "complaint_document_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view",
+                  "type": "directory",
+                  "children": {
+                    "name": "view",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "view_complaint_document_main_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_complaint_document_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_complaint_document_info_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "widgets",
+                        "type": "directory",
+                        "children": {
+                          "name": "widgets",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "complaint_registration_cart.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "complaint_info_page_inherited.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "complaint_bottom_navigation.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "complaint_status_block.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "complaint_pinned_files.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "bloc",
+                        "type": "directory",
+                        "children": {
+                          "name": "bloc",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "view_complaint_document_bloc.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_complaint_document_state.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_complaint_document_event.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "complaint_document_list.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "complaint_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "complaint_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "complaint_bloc.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "approval_document",
+            "type": "directory",
+            "children": {
+              "name": "approval_document",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "approval_document_list.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "approval_document_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "view",
+                  "type": "directory",
+                  "children": {
+                    "name": "view",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "view_approval_document_info_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_approval_document_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "view_approval_document_main_page.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "widgets",
+                        "type": "directory",
+                        "children": {
+                          "name": "widgets",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "approval_stages.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_stage_item.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_status_block.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_registration_cart.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_pinned_files.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_info_page_inherited.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_bottom_navigation.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_stages_page_intherited.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "bloc",
+                        "type": "directory",
+                        "children": {
+                          "name": "bloc",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "view_approval_document_event.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_approval_document_bloc.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "view_approval_document_state.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "approval_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "approval_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "approval_event.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "dialog_contents",
+            "type": "directory",
+            "children": {
+              "name": "dialog_contents",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "company_info",
+                  "type": "directory",
+                  "children": {
+                    "name": "company_info",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "company_information_dialog_content.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "company_info_banner.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "logout",
+                  "type": "directory",
+                  "children": {
+                    "name": "logout",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "logout_dialog.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "select_language",
+                  "type": "directory",
+                  "children": {
+                    "name": "select_language",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "select_languaga.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "language_item.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "common",
+            "type": "directory",
+            "children": {
+              "name": "common",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "navigation",
+                  "type": "directory",
+                  "children": {
+                    "name": "navigation",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "navigator.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "controller",
+                  "type": "directory",
+                  "children": {
+                    "name": "controller",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "scroll_ext.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "data_to_resource_converters.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "widgets",
+                  "type": "directory",
+                  "children": {
+                    "name": "widgets",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "document_status_block",
+                        "type": "directory",
+                        "children": {
+                          "name": "document_status_block",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "status_block_inherited.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_status_block.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "assignment_performer_item.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "text_field.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_value_input.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "place_holder.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "file_item.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "accept_button.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "on_control_mark.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "tree_view.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_icon_button.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "tab_bars.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "file_viewer.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "clear_button.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "button.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "search_textfield.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "avatar_placeholder.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_app_bar.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document",
+                        "type": "directory",
+                        "children": {
+                          "name": "document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "document_from_date.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_list_item_widget.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_state.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "chip_item.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_date_value_input.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "company_copyright.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document_info_item.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "download_file.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "nothing_found.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "chat_text_field.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "tag_item.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "reg_cart_container.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "notification_not_found.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "background.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "hidable",
+                        "type": "directory",
+                        "children": {
+                          "name": "hidable",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "hidable_widget.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "hidable_controller.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "document_control_buttons.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "main_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "main_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "main_bloc.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "profile",
+            "type": "directory",
+            "children": {
+              "name": "profile",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "profile_screen.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "menus",
+            "type": "directory",
+            "children": {
+              "name": "menus",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "menus_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "menus_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "menus_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "menus_event.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "filter",
+            "type": "directory",
+            "children": {
+              "name": "filter",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "correspondent",
+                  "type": "directory",
+                  "children": {
+                    "name": "correspondent",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "cubit",
+                        "type": "directory",
+                        "children": {
+                          "name": "cubit",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "correspondent_view_state.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "correspondent_cubit.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "select_correspondent_view_screen.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "filter_screen.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "document_view",
+                  "type": "directory",
+                  "children": {
+                    "name": "document_view",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "select_document_view_screen.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "cubit",
+                        "type": "directory",
+                        "children": {
+                          "name": "cubit",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "document_view_cubit.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_view_state.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "filter_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_state.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "filter_event.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "entrance",
+            "type": "directory",
+            "children": {
+              "name": "entrance",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "bloc",
+                  "type": "directory",
+                  "children": {
+                    "name": "bloc",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "splash_event.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "splash_bloc.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "splash_state.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "splash_screen.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "di",
+      "type": "directory",
+      "children": {
+        "name": "di",
+        "type": "directory",
+        "children": [
+          {
+            "name": "approval_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "menus_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "execution_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "home_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "di_init.dart",
+            "type": "file"
+          },
+          {
+            "name": "consideration_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "feature_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "common_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "comlaint_di.dart",
+            "type": "file"
+          },
+          {
+            "name": "auth_di.dart",
+            "type": "file"
+          }
+        ]
+      }
+    },
+    {
+      "name": ".DS_Store",
+      "type": "file"
+    },
+    {
+      "name": "core",
+      "type": "directory",
+      "children": {
+        "name": "core",
+        "type": "directory",
+        "children": [
+          {
+            "name": "application_runner.dart",
+            "type": "file"
+          },
+          {
+            "name": "crypto",
+            "type": "directory",
+            "children": {
+              "name": "crypto",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "encryptor.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "read.dart",
+            "type": "file"
+          },
+          {
+            "name": "envr.g.dart",
+            "type": "file"
+          },
+          {
+            "name": "run.dart",
+            "type": "file"
+          },
+          {
+            "name": "utils.dart",
+            "type": "file"
+          },
+          {
+            "name": "lock_timer.dart",
+            "type": "file"
+          },
+          {
+            "name": "permission.dart",
+            "type": "file"
+          },
+          {
+            "name": "envr.dart",
+            "type": "file"
+          },
+          {
+            "name": "lifecycle.dart",
+            "type": "file"
+          },
+          {
+            "name": "download.dart",
+            "type": "file"
+          },
+          {
+            "name": "clear.dart",
+            "type": "file"
+          },
+          {
+            "name": "device",
+            "type": "directory",
+            "children": {
+              "name": "device",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "device_info.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "device.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "write.dart",
+            "type": "file"
+          },
+          {
+            "name": "sign",
+            "type": "directory",
+            "children": {
+              "name": "sign",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "encrypter.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "signer.g.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "signer.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "session",
+            "type": "directory",
+            "children": {
+              "name": "session",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "manager",
+                  "type": "directory",
+                  "children": {
+                    "name": "manager",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "session_manager_impl.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "session_manager.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "session.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "runner.dart",
+      "type": "file"
+    },
+    {
+      "name": "main.dart",
+      "type": "file"
+    },
+    {
+      "name": "common",
+      "type": "directory",
+      "children": {
+        "name": "common",
+        "type": "directory",
+        "children": [
+          {
+            "name": "assets.dart",
+            "type": "file"
+          },
+          {
+            "name": "file_utils.dart",
+            "type": "file"
+          },
+          {
+            "name": "utils",
+            "type": "directory",
+            "children": {
+              "name": "utils",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "converters.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "preferences.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "dir_cleaner.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "print.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "utils.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "user.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "keys.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "pdf.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "string.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "global_constants.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "notification.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "resource.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "array.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "cert.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "bloc.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "dir.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "date.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "scroll.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "screen.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "language",
+            "type": "directory",
+            "children": {
+              "name": "language",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "locale_keys.g.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "language.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "queue_downloader",
+            "type": "directory",
+            "children": {
+              "name": "queue_downloader",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "queue_downloader.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "task.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "colors",
+            "type": "directory",
+            "children": {
+              "name": "colors",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "colors.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "text",
+            "type": "directory",
+            "children": {
+              "name": "text",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "strings_ext.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "text_styles.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "dimentions",
+            "type": "directory",
+            "children": {
+              "name": "dimentions",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "dimentions.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "data",
+      "type": "directory",
+      "children": {
+        "name": "data",
+        "type": "directory",
+        "children": [
+          {
+            "name": "dto",
+            "type": "directory",
+            "children": {
+              "name": "dto",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "response",
+                  "type": "directory",
+                  "children": {
+                    "name": "response",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "execution_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "execution_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "execution_document_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "execution_document_response.g.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "home",
+                        "type": "directory",
+                        "children": {
+                          "name": "home",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "menus_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "menu_statistic_info_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "menus_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "menu_statistic_info_response.g.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "consideration_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "consideration_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "consideration_document_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_revision_information_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_document_state_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_revision_information_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "consideration_document_response.g.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "complaint_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "complaint_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "complaint_document_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "complaint_document_response.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "approval_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "approval_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "approval_stages_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_document_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_stages_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_answer_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_answer_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_document_response.g.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "common",
+                        "type": "directory",
+                        "children": {
+                          "name": "common",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "author_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "author_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_info_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_info_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "correspondent_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_view_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_view_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_state_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "correspondent_response.g.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_state_response.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "profile",
+                        "type": "directory",
+                        "children": {
+                          "name": "profile",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "profile_response.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "profile_response.g.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "request",
+                  "type": "directory",
+                  "children": {
+                    "name": "request",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "common",
+                        "type": "directory",
+                        "children": {
+                          "name": "common",
+                          "type": "directory",
+                          "children": []
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "core",
+            "type": "directory",
+            "children": {
+              "name": "core",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ui",
+                  "type": "directory",
+                  "children": {
+                    "name": "ui",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "app_bloc_observer.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "cache",
+                  "type": "directory",
+                  "children": {
+                    "name": "cache",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "dao",
+                        "type": "directory",
+                        "children": {
+                          "name": "dao",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "search_history_dao.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "app_database.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "network",
+                  "type": "directory",
+                  "children": {
+                    "name": "network",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "client_provider.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "dio_client_impl.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "headers.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "client_ext.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "dio_custom_transformer.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "logger.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "interceptors.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "germes_network_codec.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "scopes.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "base",
+                        "type": "directory",
+                        "children": {
+                          "name": "base",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "base_client.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "repositories",
+            "type": "directory",
+            "children": {
+              "name": "repositories",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "consideration_document_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "consideration_document_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "consideration_document_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "approval_document_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "approval_document_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "approval_document_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "home_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "home_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "home_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "execution_document_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "execution_document_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "execution_document_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "common",
+                  "type": "directory",
+                  "children": {
+                    "name": "common",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "common_repository_impl.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document_info_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "auth_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "auth_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "auth_repository_impl.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "fake_auth_repository.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "complaint_document_repository_impl",
+                  "type": "directory",
+                  "children": {
+                    "name": "complaint_document_repository_impl",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "complaint_document_repository_impl.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "data_sources",
+            "type": "directory",
+            "children": {
+              "name": "data_sources",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "local",
+                  "type": "directory",
+                  "children": {
+                    "name": "local",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "auth_local_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "auth_local_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "auth_local_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "remote",
+                  "type": "directory",
+                  "children": {
+                    "name": "remote",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "approval_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "approval_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "approval_document_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "consideration_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "consideration_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "consideration_document_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "home_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "home_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "home_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "common",
+                        "type": "directory",
+                        "children": {
+                          "name": "common",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "document_network_data_source_impl.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "common_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "execution_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "execution_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "execution_document_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "complaint_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "complaint_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "complaint_document_network_data_source_impl.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "auth_network_data_source_impl",
+                        "type": "directory",
+                        "children": {
+                          "name": "auth_network_data_source_impl",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "fake_auth_network_data_source_impl.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "auth_network_data_source.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "domain",
+      "type": "directory",
+      "children": {
+        "name": "domain",
+        "type": "directory",
+        "children": [
+          {
+            "name": "entity",
+            "type": "directory",
+            "children": {
+              "name": "entity",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "ui",
+                  "type": "directory",
+                  "children": {
+                    "name": "ui",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "execution_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "execution_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "execution_document_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "home",
+                        "type": "directory",
+                        "children": {
+                          "name": "home",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "menu_statistic_info_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "menu_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "consideration_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "consideration_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "consideration_document_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "complaint_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "complaint_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "complaint_document_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "approval_document",
+                        "type": "directory",
+                        "children": {
+                          "name": "approval_document",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "approval_stages_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approvement_steps.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "approval_document_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "common",
+                        "type": "directory",
+                        "children": {
+                          "name": "common",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "document_info_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "revision_information_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "documetn_status_enum.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_state_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_view_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "correspondent_ui.dart",
+                              "type": "file"
+                            },
+                            {
+                              "name": "document_file.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "profile",
+                        "type": "directory",
+                        "children": {
+                          "name": "profile",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "profile_ui.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "filter",
+                        "type": "directory",
+                        "children": {
+                          "name": "filter",
+                          "type": "directory",
+                          "children": [
+                            {
+                              "name": "filter.dart",
+                              "type": "file"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "base",
+                  "type": "directory",
+                  "children": {
+                    "name": "base",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "base_use_case.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "base_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "base_error_response.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "validator.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "base_response.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "repositories",
+            "type": "directory",
+            "children": {
+              "name": "repositories",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "approval_document_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "consideration_document_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "common_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "home_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "auth_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "document_info_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "execution_document_repository.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "complaint_document_repository.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "common",
+            "type": "directory",
+            "children": {
+              "name": "common",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "domain_result.dart",
+                  "type": "file"
+                },
+                {
+                  "name": "document_type.dart",
+                  "type": "file"
+                }
+              ]
+            }
+          },
+          {
+            "name": "data_sources",
+            "type": "directory",
+            "children": {
+              "name": "data_sources",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "local",
+                  "type": "directory",
+                  "children": {
+                    "name": "local",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "auth_local_data_source.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "remote",
+                  "type": "directory",
+                  "children": {
+                    "name": "remote",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "home_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document_info_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "complaint_document_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "execution_document_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "auth_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "consideration_document_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "common_network_data_source.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "approval_document_network_data_source.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "mappers",
+            "type": "directory",
+            "children": {
+              "name": "mappers",
+              "type": "directory",
+              "children": [
+                {
+                  "name": "execution_document",
+                  "type": "directory",
+                  "children": {
+                    "name": "execution_document",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "execution_document_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "home",
+                  "type": "directory",
+                  "children": {
+                    "name": "home",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "menu_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "menu_statistic_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "consideration_document",
+                  "type": "directory",
+                  "children": {
+                    "name": "consideration_document",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "consideration_document_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "complaint_document",
+                  "type": "directory",
+                  "children": {
+                    "name": "complaint_document",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "complaint_document_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "approval_document",
+                  "type": "directory",
+                  "children": {
+                    "name": "approval_document",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "approval_stages_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "approval_document_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "common",
+                  "type": "directory",
+                  "children": {
+                    "name": "common",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "document_info_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "revision_information_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "correspondent_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document_view_mapper.dart",
+                        "type": "file"
+                      },
+                      {
+                        "name": "document_state_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "name": "profile",
+                  "type": "directory",
+                  "children": {
+                    "name": "profile",
+                    "type": "directory",
+                    "children": [
+                      {
+                        "name": "profile_mapper.dart",
+                        "type": "file"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

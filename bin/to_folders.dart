@@ -27,12 +27,25 @@ class ToFolders {
         Directory('${parentDirectory.path}/${folderJson['name']}');
     directory.createSync();
 
-    for (var child in folderJson['children']) {
-      if (child['type'] == 'file') {
-        File file = File('${directory.path}/${child['name']}');
-        file.createSync();
-      } else if (child['type'] == 'directory') {
-        createFolderStructure(child, directory);
+    var children = folderJson['children'];
+    if (children is List) {
+      for (var child in children) {
+        if (child['type'] == 'file') {
+          File file = File('${directory.path}/${child['name']}');
+          file.createSync();
+        } else if (child['type'] == 'directory') {
+          createFolderStructure(child, directory);
+        }
+      }
+    } else {
+      var singleChild = folderJson['children']['children'];
+      for (var child in singleChild) {
+        if (child['type'] == 'file') {
+          File file = File('${directory.path}/${child['name']}');
+          file.createSync();
+        } else if (child['type'] == 'directory') {
+          createFolderStructure(child, directory);
+        }
       }
     }
   }
